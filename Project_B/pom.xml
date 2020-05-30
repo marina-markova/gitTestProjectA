@@ -10,6 +10,10 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
   <packaging>jar</packaging>
   <artifactId>Project_B</artifactId>
   <name>Project B</name>
