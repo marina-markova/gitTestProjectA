@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Project_A-2</name>
 	<description>Implementing CI/CD on Spring Boot Java App</description>
+	<packaging>pom</packaging>
 
 	
 	<properties>
@@ -42,4 +43,7 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>Project_B</module>
+	</modules>
 </project>
