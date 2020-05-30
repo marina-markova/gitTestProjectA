@@ -17,7 +17,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
   <dependencies>
   <dependency>
 <groupId>project-a</groupId>
-	<artifactId>Project-A</artifactId>
+	<artifactId>Project_B</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
   </dependency>
   </dependencies>

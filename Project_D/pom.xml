@@ -16,8 +16,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 <dependencies>
 <dependency>
 <groupId>project-a</groupId>
-<artifactId>Project-A</artifactId>
+<artifactId>Project_C</artifactId>
 <version>0.0.1-SNAPSHOT</version>
+
+<exclusions>
+<exclusion>
+          <groupId>project-a</groupId>
+          <artifactId>Project_B</artifactId>
+        </exclusion>
+        </exclusions>
 
 </dependency>
 </dependencies>
